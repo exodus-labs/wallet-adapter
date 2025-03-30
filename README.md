@@ -1,14 +1,38 @@
-# Wallet Adapter
+# nedy-wallet-adapter
 
-Modular TypeScript wallet adapters and components for Solana applications.
+Solana wallet adapter forked and republished with customizations.
 
-- [Demo](https://anza-xyz.github.io/wallet-adapter/example)
-- [TypeScript Docs](https://anza-xyz.github.io/wallet-adapter/)
-- [For Solana Apps](https://github.com/anza-xyz/wallet-adapter/blob/master/APP.md)
-- [For Solana Wallets](https://github.com/anza-xyz/wallet-adapter/blob/master/WALLET.md)
-- [Packages](https://github.com/anza-xyz/wallet-adapter/blob/master/PACKAGES.md)
-- [FAQ (Frequently Asked Questions)](https://github.com/anza-xyz/wallet-adapter/blob/master/FAQ.md)
-- [Build from Source](https://github.com/anza-xyz/wallet-adapter/blob/master/BUILD.md)
+## Packages
 
+This monorepo consists of several packages:
 
-![Wallets](wallets.png)
+- **Core packages** - Core functionality and interfaces
+- **UI packages** - Ready-to-use UI components
+- **Wallet packages** - Adapters for different wallets
+- **Starter packages** - Example integration
+
+## Installation
+
+```bash
+# Install core package
+npm install nedy-wallet-adapter-base
+
+# Install React integration
+npm install nedy-wallet-adapter-react
+
+# Install UI components (pick one)
+npm install nedy-wallet-adapter-react-ui
+npm install nedy-wallet-adapter-material-ui
+npm install nedy-wallet-adapter-ant-design
+
+# Install wallet adapters
+npm install nedy-wallet-adapter-wallets
+```
+
+## Documentation
+
+For detailed documentation, please refer to the original Solana wallet adapter repository.
+
+## License
+
+MIT

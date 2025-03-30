@@ -1,4 +1,4 @@
-import type { EventEmitter, WalletName } from '@solana/wallet-adapter-base';
+import type { EventEmitter, WalletName } from 'nedy-wallet-adapter-base';
 import {
     BaseMessageSignerWalletAdapter,
     scopePollingDetectionStrategy,
@@ -12,7 +12,7 @@ import {
     WalletReadyState,
     WalletSignMessageError,
     WalletSignTransactionError,
-} from '@solana/wallet-adapter-base';
+} from 'nedy-wallet-adapter-base';
 import type { SendOptions, Transaction, TransactionSignature } from '@solana/web3.js';
 import { PublicKey } from '@solana/web3.js';
 

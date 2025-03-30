@@ -1,8 +1,8 @@
-import type { Adapter, WalletError } from '@solana/wallet-adapter-base';
-import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { WalletDialogProvider, WalletMultiButton } from '@solana/wallet-adapter-material-ui';
-import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
-import { UnsafeBurnerWalletAdapter } from '@solana/wallet-adapter-wallets';
+import type { Adapter, WalletError } from 'nedy-wallet-adapter-base';
+import { WalletAdapterNetwork } from 'nedy-wallet-adapter-base';
+import { WalletDialogProvider, WalletMultiButton } from 'nedy-wallet-adapter-material-ui';
+import { ConnectionProvider, WalletProvider } from 'nedy-wallet-adapter-react';
+import { UnsafeBurnerWalletAdapter } from 'nedy-wallet-adapter-wallets';
 import { clusterApiUrl } from '@solana/web3.js';
 import { useSnackbar } from 'notistack';
 import type { FC, ReactNode } from 'react';

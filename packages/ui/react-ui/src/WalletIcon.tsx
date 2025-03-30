@@ -1,4 +1,4 @@
-import type { Wallet } from '@solana/wallet-adapter-react';
+import type { Wallet } from 'nedy-wallet-adapter-react';
 import type { DetailedHTMLProps, FC, ImgHTMLAttributes } from 'react';
 import React from 'react';
 

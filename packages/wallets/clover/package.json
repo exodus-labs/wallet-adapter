@@ -1,9 +1,9 @@
 {
-    "name": "@solana/wallet-adapter-clover",
+    "name": "nedy-wallet-adapter-clover",
     "version": "0.4.20",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
-    "repository": "https://github.com/anza-xyz/wallet-adapter",
-    "license": "Apache-2.0",
+    "author": "nedy <your.email@example.com>",
+    "repository": "https://github.com/nedy/wallet-adapter",
+    "license": "MIT",
     "publishConfig": {
         "access": "public"
     },
@@ -35,7 +35,7 @@
         "@solana/web3.js": "^1.77.3"
     },
     "dependencies": {
-        "@solana/wallet-adapter-base": "workspace:^"
+        "nedy-wallet-adapter-base": "workspace:^"
     },
     "devDependencies": {
         "@solana/web3.js": "^1.77.3",

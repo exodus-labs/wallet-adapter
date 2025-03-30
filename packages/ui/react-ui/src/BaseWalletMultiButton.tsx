@@ -1,4 +1,4 @@
-import { useWalletMultiButton } from '@solana/wallet-adapter-base-ui';
+import { useWalletMultiButton } from 'nedy-wallet-adapter-base-ui';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { BaseWalletConnectionButton } from './BaseWalletConnectionButton.js';
 import type { ButtonProps } from './Button.js';
